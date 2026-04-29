@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ashwini Patil | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px;
+      background: #1e293b;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 40px;
+    }
+
+    header p {
+      color: #94a3b8;
+    }
+
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      border-bottom: 2px solid #38bdf8;
+      padding-bottom: 10px;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #38bdf8;
+      color: black;
+      padding: 8px 12px;
+      margin: 5px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+   form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  margin-top: 5px;
+   }
+
+form textarea {
+  height: 100px;
+}
+
+    .project {
+      background: #1e293b;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 10px;
+    }
+
+   .typing {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid #38bdf8;
+  width: 0;
+  animation: typing 4s steps(30) infinite;
+  }
+
+@keyframes typing {
+  0% { width: 0 }
+  50% { width: 260px }
+  100% { width: 0 }
+}
+
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1e293b;
+      margin-top: 30px;
+    }
+
+    html {
+     scroll-behavior: smooth;
+   }
+
+   .project:hover {
+             transform: translateY(-10px) scale(1.02);
+             box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+         }
+  </style>
+</head>
+
+<body>
+
+<nav style="position:sticky; top:0; background:#020617; padding:15px; text-align:center; z-index:1000;">
+  <a href="#about" style="margin:10px;">About</a>
+  <a href="#skills" style="margin:10px;">Skills</a>
+  <a href="#internship" style="margin:10px;">Internship</a>
+  <a href="#projects" style="margin:10px;">Projects</a>
+  <a href="#contact" style="margin:10px;">Contact</a>
+<header>
+  <h1>Ashwini Patil</h1>
+
+  <p><span class="typing"></span></p>
+
+  <img src="Ashwini photo.jpeg" alt="My Photo" 
+       style="width:120px; height:120px; border-radius:50%; object-fit:cover; object-position: 50% 20%; margin-top:20px;">
+<p>📩 Open to Work | Contact me via Email or LinkedIn</p>
+
+  <br>
+  <a href="resume.pdf" class="btn" download>Download Resume</a>
+</header>
+
+
+<section id="about">
+ <h2>About Me</h2>
+<p>
+I am a passionate Data Analyst with strong skills in Python, Power BI, SQL, and Data Visualization. 
+I have completed a Data Analyst course where I gained hands-on experience in data cleaning, analysis, and dashboard creation.
+</p>
+
+<p>
+I have also completed an internship in Data Analytics, where I worked on real-world datasets and developed insights to support decision-making. 
+During this time, I improved my practical knowledge of tools like Power BI, Excel, and Python.
+</p>
+
+<p>
+I have worked on projects like Wine Quality Prediction and Customer Segmentation, applying machine learning and analytical techniques. 
+I am eager to learn, grow, and contribute to data-driven organizations.
+</p>
+
+</section>
+
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <span>Python</span>
+    <span>Power BI</span>
+    <span>SQL</span>
+    <span>Excel</span>
+    <span>Machine Learning</span>
+  </div>
+</section>
+
+
+<section id="internship">
+<h2>Internship Experience</h2>
+
+<div class="project">
+<h3>Data Analyst Intern</h3>
+<p><b>Company:</b> Oasis Infobyte (OIBSIP)</p>
+<p>
+Worked on real-world data analysis tasks including data cleaning, visualization, and reporting. 
+Created dashboards using Power BI and gained hands-on experience with Python and Excel.
+</p>
+</div>
+
+</section>
+
+
+<section>
+<h2>Certifications & Course</h2>
+
+<div class="project">
+<h3>Data Analyst Course</h3>
+<p>
+Completed a professional Data Analyst course covering Python, SQL, Power BI, and data visualization techniques.
+</p>
+</div>
+
+</section>
+
+<section id="projects">  
+<h2>Projects</h2>
+
+
+  <div class="project">
+    <h3>Wine Quality Prediction</h3>
+    <p>
+<p>
+Built a machine learning model to predict wine quality with improved accuracy. 
+Performed data cleaning, feature engineering, and model evaluation.
+</p>
+    <a href="https://github.com/patilashwini99/Wine-Quality-Prediction"  target="_blank" class="btn">View Project</a>
+  </div>
+
+<div class="project">
+<h3>Skin Care Product Analysis Dashboard</h3>
+
+<p>
+Developed an interactive dashboard using Power BI to analyze skin care products based on categories, pricing, and customer preferences. 
+Performed data cleaning and visualization to generate meaningful insights for better decision-making.
+</p>
+
+<img src="dashboard.png" style="width:100%; border-radius:10px; margin-top:10px;">
+
+<a href="https://github.com/patilashwini99/Skin_Care-_Dashboard" target="_blank" class="btn">View Project</a>
+</div>
+
+
+  <div class="project">
+    <h3>Customer Segmentation</h3>
+    <p>Used clustering techniques to segment customers.</p>
+    <a href="https://github.com/patilashwini99/Customer-Segmentation-Analysis"  target="_blank" class="btn">View Project  </a>
+  </div>
+
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:patilashwini14701@gmail.com">patilashwini14701@gmail.com</a></p>
+
+  <a href="https://www.linkedin.com/in/ashwini-patil-6884b7298" target="_blank" class="btn">
+  Connect on LinkedIn
+</a>
+
+
+</section>
+
+<footer>
+  <p>© 2026 Ashwini Patil</p>
+</footer>
+
+</body>
+</html>
